@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estyle.css"type="text/css">
+	<title>19F-0228 Lab 1</title>
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body
+{
+	background:url("1.jpg");
+	background-size: cover;
+}
+h1
+{ 	font-size: 50px;
+	text-align: center;
+	color: rgba(251, 0, 0, 0.835);
+	font-family: 'Montserrat', sans-serif;
+}
+.Block
+{   background-color: rgba(192, 192, 192, 0.26); 
+	margin-top: 120px;
+    margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: 150px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 5px;
+
+}
+label
+{
+font-size: 24px;
+font-weight: 500;
+color: #ffff;
+}
+input
+{
+font-size: 14pt;
+height: 30px; 
+width:350px;
+}
+button
+{   border-radius: 5px;
+	background-color: transparent;
+	border-color: rgba(251, 0, 0, 0.835);
+    color:whitesmoke;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+
+	transition: transform 80ms ease-i;
+	margin-left: 80px;
+}
+select
+{
+	font-size: 14pt;
+	height: 40px; 
+	width:358px
+}
+
+	</style>
+</head>
+<body>
+
+	<form class= "Block" onsubmit="return validateForm();" >
+		<h1 >Log!n</h1>	
+			<br>
+			<label>Username</label>
+			<br>
+			<input type="text" name="username" id="user" >
+			<br><br>	
+			<label>Password</label>	
+			<br>	
+			<input type="password" name="password" id="pass" >
+			<br><br><br>
+
+	<button type="submit" >Sign in</button>
+	<br>
+
+
+</form>
+
+</body>
+</html>
